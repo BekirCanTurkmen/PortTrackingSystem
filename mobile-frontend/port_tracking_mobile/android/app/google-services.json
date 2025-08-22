@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "223916243427",
+    "project_id": "limangemitakipsistemi",
+    "storage_bucket": "limangemitakipsistemi.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223916243427:android:9462822a8d268ac99408d6",
+        "android_client_info": {
+          "package_name": "com.example.port_tracking_mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY9nfAMK6UjlCgD4UEtXcqWHwfjpq0T2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---- Arkas-vari yardımcı sınıflar ---- */
+.page-shell { @apply min-h-screen bg-brand-light; }
+.topbar { @apply bg-white shadow-soft; }
+.topbar-inner { @apply max-w-6xl mx-auto px-4 py-3 flex items-center justify-between; }
+.brand { @apply flex items-center gap-3; }
+.brand-dot { @apply w-9 h-9 rounded-full bg-brand-blue; }
+.brand-name { @apply text-xl font-bold text-brand-navy; }
+.navbar { @apply flex gap-5; }
+.navlink { @apply text-brand-navy/90 hover:text-brand-blue transition-colors; }
+.page { @apply max-w-6xl mx-auto px-4 py-8; }
+.page-title { @apply text-4xl md:text-5xl font-extrabold text-brand-navy leading-tight; }
+.page-actions { @apply flex items-center gap-3; }
+.btn { @apply inline-flex items-center justify-center px-4 py-2 rounded-xl font-medium transition; }
+.btn-primary { @apply btn bg-brand-blue text-white hover:bg-brand-blue2; }
+.btn-ghost { @apply btn bg-transparent text-brand-blue hover:bg-brand-light; }
+.card { @apply bg-white rounded-2xl shadow-soft p-5; }
+.table { @apply min-w-full border border-slate-200 rounded-xl overflow-hidden; }
+.table thead tr { @apply bg-slate-50; }
+.table th, .table td { @apply border border-slate-200 p-3 text-left align-middle; }
+.table-actions { @apply flex items-center gap-3; }
+.badge { @apply inline-flex items-center rounded-full px-2.5 py-1 text-xs font-semibold bg-brand-light text-brand-navy; }
